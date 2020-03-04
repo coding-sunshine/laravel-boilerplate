@@ -6,6 +6,8 @@
 
 require('./bootstrap');
 
+import 'alpinejs';
+
 window.Vue = require('vue');
 
 /**
