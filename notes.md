@@ -9,4 +9,5 @@
 - Ignored generated files in public directory. This should only be generated via builds
 - Added email verification by default
 - Added Calebporzio Sushi package
+- Added Livewire package, published content and made changes in composer script to make sure assets are upto date
 
