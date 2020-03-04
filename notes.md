@@ -13,5 +13,6 @@
 - Added ApineJS
 - Added Laravel Debugbar package to dev requirements
 - Added Nunomaduro Larastan for static analysis to dev requirements (Usage: ``` ./vendor/bin/phpstan analyse --memory-limit=2G ```)
-
+- Added Laravel Telescope
+- Added Laravel debugbar extension for Telescope
 
