@@ -12,4 +12,6 @@
 - Added Livewire package, published content and made changes in composer script to make sure assets are upto date
 - Added ApineJS
 - Added Laravel Debugbar package to dev requirements
+- Added Nunomaduro Larastan for static analysis to dev requirements (Usage: ``` ./vendor/bin/phpstan analyse --memory-limit=2G ```)
+
 
