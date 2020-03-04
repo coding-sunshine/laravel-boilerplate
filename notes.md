@@ -8,4 +8,5 @@
 - Published auth with Vue UI
 - Ignored generated files in public directory. This should only be generated via builds
 - Added email verification by default
+- Added Calebporzio Sushi package
 
