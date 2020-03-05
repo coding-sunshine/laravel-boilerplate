@@ -16,4 +16,5 @@
 - Added Laravel Telescope
 - Added Laravel debugbar extension for Telescope
 - Added laravel-shift/blueprint to dev requirements
+- Updated PHP Unit to v9
 
