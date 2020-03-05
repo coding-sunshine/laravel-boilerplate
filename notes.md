@@ -17,4 +17,4 @@
 - Added Laravel debugbar extension for Telescope
 - Added laravel-shift/blueprint to dev requirements
 - Updated PHP Unit to v9
-
+- Added Nunomaduro phpinsights to dev requirements (Usage ``` php artisan insights ```)
