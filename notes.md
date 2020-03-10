@@ -25,3 +25,4 @@
 - Added iatstuti/laravel-cascade-soft-deletes
 - Added calebporzio/parental
 - Added darkghosthunter/laraload
+- Added Laravel airlock
