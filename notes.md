@@ -10,7 +10,7 @@
 - Added email verification by default
 - Added Calebporzio Sushi package
 - Added Livewire package, published content and made changes in composer script to make sure assets are upto date
-- Added ApineJS
+- Added AlpineJS
 - Added Laravel Debugbar package to dev requirements
 - Added Nunomaduro Larastan for static analysis to dev requirements (Usage: ``` ./vendor/bin/phpstan analyse --memory-limit=2G ```)
 - Added Laravel Telescope
@@ -18,3 +18,5 @@
 - Added laravel-shift/blueprint to dev requirements
 - Updated PHP Unit to v9
 - Added Nunomaduro phpinsights to dev requirements (Usage ``` php artisan insights ```)
+- Livewire fixes on app.blade.php
+- Added turbolinks for SPA like feel
