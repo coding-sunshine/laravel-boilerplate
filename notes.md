@@ -27,3 +27,5 @@
 - Added darkghosthunter/laraload
 - Added Laravel airlock
 - Added mantas-done/laravel-apm
+- Added mcamara/laravel-localization
+
