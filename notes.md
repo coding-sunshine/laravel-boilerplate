@@ -20,3 +20,4 @@
 - Added Nunomaduro phpinsights to dev requirements (Usage ``` php artisan insights ```)
 - Livewire fixes on app.blade.php
 - Added turbolinks for SPA like feel
+- Added larsjanssen6/underconstruction
