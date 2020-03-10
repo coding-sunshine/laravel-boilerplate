@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8206892f3472580901486a2e8ac4e045",
+    "content-hash": "0b0456ba4fbd9e50a96c55ec87840b08",
     "packages": [
         {
             "name": "appstract/laravel-blade-directives",
@@ -197,6 +197,109 @@
             ],
             "description": "Eloquent's missing \"array\" driver.",
             "time": "2020-03-04T02:49:53+00:00"
+        },
+        {
+            "name": "darkghosthunter/laraload",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DarkGhostHunter/Laraload.git",
+                "reference": "7f07f04fe032b2839fb18b27b1ae009c6da663bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DarkGhostHunter/Laraload/zipball/7f07f04fe032b2839fb18b27b1ae009c6da663bf",
+                "reference": "7f07f04fe032b2839fb18b27b1ae009c6da663bf",
+                "shasum": ""
+            },
+            "require": {
+                "darkghosthunter/preloader": "^1.1.3",
+                "illuminate/contracts": "6.*|7.*",
+                "illuminate/support": "6.*|7.*",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": ">4.0|5.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DarkGhostHunter\\Laraload\\LaraloadServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DarkGhostHunter\\Laraload\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Italo Israel Baeza Cabrera",
+                    "email": "darkghosthunter@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Effortlessly make a Preload script for your Laravel application.",
+            "homepage": "https://github.com/darkghosthunter/laraload",
+            "keywords": [
+                "darkghosthunter",
+                "laraload"
+            ],
+            "time": "2020-03-05T16:36:59+00:00"
+        },
+        {
+            "name": "darkghosthunter/preloader",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DarkGhostHunter/Preloader.git",
+                "reference": "135cccf9d9df8f7d60cec8b509189028cc8ee41a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DarkGhostHunter/Preloader/zipball/135cccf9d9df8f7d60cec8b509189028cc8ee41a",
+                "reference": "135cccf9d9df8f7d60cec8b509189028cc8ee41a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkGhostHunter\\Preloader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Italo Israel Baeza Cabrera",
+                    "email": "darkghosthunter@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Preloader helper to create a PHP-ready preload script from Opcache.",
+            "homepage": "https://github.com/darkghosthunter/preloader",
+            "keywords": [
+                "Opcache",
+                "darkghosthunter",
+                "php-7.4",
+                "preloader"
+            ],
+            "time": "2020-01-16T16:21:12+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
