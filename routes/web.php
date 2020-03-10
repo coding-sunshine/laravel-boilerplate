@@ -21,4 +21,7 @@ Route::group(['middleware' => 'under-construction'], function() {
     Auth::routes(['verify' => true]);
 
     Route::get('/home', 'HomeController@index')->name('home');
+
+    // Should go under super admin
+    Route::get('/apm', '\Done\LaravelAPM\ApmController@index')->name('apm');
 });

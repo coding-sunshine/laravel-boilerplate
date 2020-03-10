@@ -26,3 +26,4 @@
 - Added calebporzio/parental
 - Added darkghosthunter/laraload
 - Added Laravel airlock
+- Added mantas-done/laravel-apm

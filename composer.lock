@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e20cfca267b484dec5e16f6589aefc4",
+    "content-hash": "4a96329bcd8fb385cf957ef83e135710",
     "packages": [
         {
             "name": "appstract/laravel-blade-directives",
@@ -1619,6 +1619,42 @@
             ],
             "description": "A front-end framework for Laravel.",
             "time": "2020-03-09T14:47:09+00:00"
+        },
+        {
+            "name": "mantas-done/laravel-apm",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mantas-done/laravel-apm.git",
+                "reference": "e225b43602bf1ebd71506b09365cfdd901554f21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mantas-done/laravel-apm/zipball/e225b43602bf1ebd71506b09365cfdd901554f21",
+                "reference": "e225b43602bf1ebd71506b09365cfdd901554f21",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Done\\LaravelAPM\\ApmServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Done\\LaravelAPM\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mantas Donelavičius"
+                }
+            ],
+            "description": "Application monitoring for Laravel",
+            "time": "2020-01-26T13:22:49+00:00"
         },
         {
             "name": "monolog/monolog",
