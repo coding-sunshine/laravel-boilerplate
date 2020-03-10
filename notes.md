@@ -28,4 +28,4 @@
 - Added Laravel airlock
 - Added mantas-done/laravel-apm
 - Added mcamara/laravel-localization
-
+- Added https://lighthouse-php.com/ for graphql support
