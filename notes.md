@@ -21,3 +21,4 @@
 - Livewire fixes on app.blade.php
 - Added turbolinks for SPA like feel
 - Added larsjanssen6/underconstruction
+- Added appstract/laravel-blade-directives
