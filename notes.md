@@ -30,3 +30,4 @@
 - Added mcamara/laravel-localization
 - Added https://lighthouse-php.com/ for graphql support
 - Added nwidart/laravel-modules
+- Added mbezhanov/faker-provider-collection to dev
