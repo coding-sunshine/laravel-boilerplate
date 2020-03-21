@@ -25,7 +25,7 @@
 - Added iatstuti/laravel-cascade-soft-deletes
 - Added calebporzio/parental
 - Added darkghosthunter/laraload
-- Added Laravel airlock
+- Added Laravel Sanctum
 - Added mantas-done/laravel-apm
 - Added mcamara/laravel-localization
 - Added https://lighthouse-php.com/ for graphql support
