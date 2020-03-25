@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2.5",
         "appstract/laravel-blade-directives": "^1.8",
+        "beyondcode/laravel-self-diagnosis": "^1.4",
         "calebporzio/parental": "^0.10.0",
         "calebporzio/sushi": "^2.0",
         "darkghosthunter/laraload": "^2.0",

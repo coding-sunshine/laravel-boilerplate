@@ -35,3 +35,4 @@
 - Added vemcogroup/laravel-translation to dev
 - Added beyondcode/laravel-query-detector to dev
 - Added beyondcode/laravel-view-xray to dev
+- Added beyondcode/laravel-self-diagnosis for proper setup (Usage ``` php artisan self-diagnosis ```)

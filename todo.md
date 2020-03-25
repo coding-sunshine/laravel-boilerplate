@@ -5,3 +5,4 @@
 - more to Sanctum
 - localization settings
 - more to graphql
+- beyondcode/laravel-self-diagnosis temporary disabled env checks
