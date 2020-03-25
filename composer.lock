@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "140d98f0ff8f291fc4d01c5e787f0b45",
+    "content-hash": "abf82f11289a5af6612846793afe3abd",
     "packages": [
         {
             "name": "appstract/laravel-blade-directives",
@@ -6388,7 +6388,7 @@
         },
         {
             "name": "nunomaduro/phpinsights",
-            "version": "dev-master",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/phpinsights.git",
@@ -9067,9 +9067,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "nunomaduro/phpinsights": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
