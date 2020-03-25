@@ -30,6 +30,7 @@
         "nwidart/laravel-modules": "^6.2",
         "predis/predis": "^1.1",
         "sentry/sentry-laravel": "^1.7",
+        "spatie/laravel-activitylog": "^3.14",
         "spatie/laravel-medialibrary": "^8.0"
     },
     "require-dev": {

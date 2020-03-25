@@ -46,3 +46,4 @@
     - install Gifsicle
     - GD
     - If you want to create PDF or SVG thumbnails Imagick and Ghostscript 
+- Added spatie/laravel-activitylog 
