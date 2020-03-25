@@ -31,6 +31,7 @@
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
+        "beyondcode/tinkerwell-helper": "^1.1",
         "facade/ignition": "^2.0",
         "fruitcake/laravel-telescope-toolbar": "^1.2",
         "fzaninotto/faker": "^1.9.1",
@@ -43,7 +44,8 @@
         "nunomaduro/collision": "^4.1",
         "nunomaduro/larastan": "^0.5.2",
         "nunomaduro/phpinsights": "dev-master",
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^9.0",
+        "vemcogroup/laravel-translation": "^2.0"
     },
     "config": {
         "optimize-autoloader": true,

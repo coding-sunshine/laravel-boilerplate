@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f497221c85c232f298a130f6c5f57175",
+    "content-hash": "140d98f0ff8f291fc4d01c5e787f0b45",
     "packages": [
         {
             "name": "appstract/laravel-blade-directives",
@@ -4656,6 +4656,50 @@
             "time": "2020-02-25T20:42:23+00:00"
         },
         {
+            "name": "beyondcode/tinkerwell-helper",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beyondcode/tinkerwell-helper.git",
+                "reference": "1993c888ef64b76a24804b8493421cb7c9b5bd43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beyondcode/tinkerwell-helper/zipball/1993c888ef64b76a24804b8493421cb7c9b5bd43",
+                "reference": "1993c888ef64b76a24804b8493421cb7c9b5bd43",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "marcel@beyondco.de",
+                    "homepage": "https://beyondcode.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Open Tinkerwell from your Laravel project.",
+            "homepage": "https://github.com/beyondcode/tinkerwell-helper",
+            "keywords": [
+                "beyondcode",
+                "tinkerwell-helper"
+            ],
+            "time": "2020-03-07T11:29:05+00:00"
+        },
+        {
             "name": "composer/ca-bundle",
             "version": "1.2.6",
             "source": {
@@ -8915,6 +8959,62 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2019-06-13T22:48:21+00:00"
+        },
+        {
+            "name": "vemcogroup/laravel-translation",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vemcogroup/laravel-translation.git",
+                "reference": "ba823f64e2374782278fa8b22b5a08bbdfde6876"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vemcogroup/laravel-translation/zipball/ba823f64e2374782278fa8b22b5a08bbdfde6876",
+                "reference": "ba823f64e2374782278fa8b22b5a08bbdfde6876",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.3",
+                "laravel/framework": "~5.8.0|^6.0|^7.0",
+                "php": "^7.2",
+                "symfony/finder": "^4.3|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vemcogroup\\Translation\\TranslationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vemcogroup\\Translation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Henrik B Hansen",
+                    "email": "hbh@vemcount.com",
+                    "homepage": "https://www.vemcogroup.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Translation package for Laravel to scan for localisations and up/download to poeditor",
+            "homepage": "https://github.com/vemcogroup/laravel-translation",
+            "keywords": [
+                "Poeditor",
+                "i18n",
+                "laravel",
+                "translations"
+            ],
+            "time": "2020-03-03T14:21:18+00:00"
         },
         {
             "name": "webmozart/assert",
