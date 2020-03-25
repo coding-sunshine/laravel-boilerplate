@@ -7,11 +7,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Activitylog\Traits\LogsActivity;
+use App\Models\Concerns\HasSchemalessAttributes;
 
 
 class User extends Authenticatable
 {
-    use HasApiTokens, LogsActivity, Notifiable;
+    use HasApiTokens, HasSchemalessAttributes, LogsActivity, Notifiable;
 
     /**
      * The attributes that are mass assignable.
