@@ -37,3 +37,4 @@
 - Added beyondcode/laravel-view-xray to dev
 - Added beyondcode/laravel-self-diagnosis for proper setup (Usage ``` php artisan self-diagnosis ```)
 - Added sentry/sentry-laravel and sentry for JS
+- Added mtolhuys/laravel-schematics to dev
