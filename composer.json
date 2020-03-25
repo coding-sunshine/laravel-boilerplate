@@ -32,6 +32,7 @@
         "sentry/sentry-laravel": "^1.7",
         "spatie/laravel-activitylog": "^3.14",
         "spatie/laravel-medialibrary": "^8.0",
+        "spatie/laravel-permission": "^3.11",
         "spatie/laravel-schemaless-attributes": "^1.7"
     },
     "require-dev": {

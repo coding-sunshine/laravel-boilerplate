@@ -25,6 +25,13 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        /**
+         * Implicitly grant "Super Admin" role all permissions
+         * This works in the app by using gate-related functions like auth()->user->can() and @can()
+         * https://docs.spatie.be/laravel-permission/v3/basic-usage/super-admin/
+         */
+        Gate::after(function ($user, $ability) {
+            return $user->hasRole('superadmin'); // note this returns boolean
+        });
     }
 }
