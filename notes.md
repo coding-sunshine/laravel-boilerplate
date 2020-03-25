@@ -38,3 +38,11 @@
 - Added beyondcode/laravel-self-diagnosis for proper setup (Usage ``` php artisan self-diagnosis ```)
 - Added sentry/sentry-laravel and sentry for JS
 - Added mtolhuys/laravel-schematics to dev
+- Added spatie/laravel-medialibrary
+    - install JpegOptim
+    - install Optipng
+    - install Pngquant 2
+    - install SVGO
+    - install Gifsicle
+    - GD
+    - If you want to create PDF or SVG thumbnails Imagick and Ghostscript 
