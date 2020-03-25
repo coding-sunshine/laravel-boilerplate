@@ -33,3 +33,4 @@
 - Added mbezhanov/faker-provider-collection to dev
 - Added beyondcode/tinkerwell-helper to dev
 - Added vemcogroup/laravel-translation to dev
+- Added beyondcode/laravel-query-detector to dev
