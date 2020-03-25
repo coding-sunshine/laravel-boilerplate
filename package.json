@@ -25,6 +25,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@sentry/browser": "^5.15.0",
+        "@sentry/integrations": "^5.15.0",
         "turbolinks": "^5.2.0"
     }
 }

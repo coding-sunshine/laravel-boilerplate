@@ -35,3 +35,25 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+
+/*
+ * Sentry.io Integration
+ */
+import * as Sentry from '@sentry/browser';
+import * as Integrations from '@sentry/integrations';
+
+if(process.env.MIX_APP_ENV !== 'local')
+{
+    Sentry.init({
+        dsn: process.env.MIX_SENTRY_VUE_DSN,
+        integrations: [new Integrations.Vue({app, attachProps: true, logErrors: true})],
+    });
+    /*
+     * Enable following line to test if sentry works properly
+     */
+    //Sentry.captureException(new Error("Something broke"));
+}
+/*
+ * Sentry.io Integration Ends
+ */
