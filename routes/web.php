@@ -13,19 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/debug-sentry', function () {
-    throw new Exception('My first Sentry error!');
-});
-
-Route::group(['middleware' => 'under-construction','prefix' => LaravelLocalization::setLocale()], function() {
+Route::group(['middleware' => ['under-construction'],'prefix' => LaravelLocalization::setLocale()], function() {
     Route::get('/', function () {
         return view('welcome');
-    });
+    })->name('guest.welcome');
 
     Auth::routes(['verify' => true]);
 
-    Route::get('/home', 'HomeController@index')->name('home');
-
-    // Should go under super admin
-    Route::get('/apm', '\Done\LaravelAPM\ApmController@index')->name('apm');
+    Route::middleware(['verified', 'auth', 'permitted'])->name('auth.')->group(function () {
+        Route::get('/home', 'HomeController@index')->name('home');
+        // Should go under super admin
+        Route::get('/apm', '\Done\LaravelAPM\ApmController@index')->name('apm');
+        // Test only permitted to superadmin and on local environment now
+        Route::any('/test/{function?}', 'TestController@index')->name('test')->middleware('local');
+    });
 });
