@@ -27,7 +27,7 @@
         "mantas-done/laravel-apm": "^1.0",
         "mcamara/laravel-localization": "^1.5",
         "nuwave/lighthouse": "^4.10",
-        "nwidart/laravel-modules": "^6.2",
+        "nwidart/laravel-modules": "^7.0",
         "predis/predis": "^1.1",
         "sentry/sentry-laravel": "^1.7",
         "spatie/laravel-activitylog": "^3.14",
