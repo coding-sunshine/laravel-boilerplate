@@ -9,11 +9,12 @@ use Laravel\Sanctum\HasApiTokens;
 use Spatie\Activitylog\Traits\LogsActivity;
 use App\Models\Concerns\HasSchemalessAttributes;
 use Spatie\Permission\Traits\HasRoles;
+use App\Models\Concerns\ScoutSearch;
 
 
 class User extends Authenticatable
 {
-    use HasApiTokens, HasRoles, HasSchemalessAttributes, LogsActivity, Notifiable;
+    use HasApiTokens, HasRoles, HasSchemalessAttributes, LogsActivity, Notifiable, ScoutSearch;
 
     /**
      * The attributes that are mass assignable.
@@ -48,6 +49,18 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
+        'name' => 'string',
+        'email' => 'string',
         'email_verified_at' => 'datetime',
+    ];
+
+    /**
+     * The attributes that should be searchable.
+     *
+     * @var array
+     */
+    protected $searchable = [
+        'name',
+        'email',
     ];
 }

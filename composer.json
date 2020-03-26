@@ -9,6 +9,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "algolia/algoliasearch-client-php": "^2.6",
+        "algolia/scout-extended": "^1.9",
         "appstract/laravel-blade-directives": "^1.8",
         "beyondcode/laravel-self-diagnosis": "^1.4",
         "calebporzio/parental": "^0.10.0",
@@ -20,6 +22,7 @@
         "iatstuti/laravel-cascade-soft-deletes": "^3.0",
         "laravel/framework": "^7.0",
         "laravel/sanctum": "^2.0",
+        "laravel/scout": "^8.0",
         "laravel/telescope": "^3.1",
         "laravel/tinker": "^2.0",
         "larsjanssen6/underconstruction": "^6.0",
@@ -33,7 +36,8 @@
         "spatie/laravel-activitylog": "^3.14",
         "spatie/laravel-medialibrary": "^8.0",
         "spatie/laravel-permission": "^3.11",
-        "spatie/laravel-schemaless-attributes": "^1.7"
+        "spatie/laravel-schemaless-attributes": "^1.7",
+        "teamtnt/laravel-scout-tntsearch-driver": "^8.1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",

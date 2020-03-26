@@ -6,3 +6,4 @@
 - localization settings
 - more to graphql
 - beyondcode/laravel-self-diagnosis temporary disabled env checks
+- more to laravel/scout and algolia/scout-extended

@@ -50,3 +50,4 @@
 - Added spatie/laravel-schemaless-attributes
 - Adde Spatie/Permissions 
 - Superadmin only Test Controller added for random tesing
+- Added laravel/scout and algolia/scout-extended with configuration
