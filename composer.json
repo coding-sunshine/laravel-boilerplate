@@ -58,7 +58,8 @@
         "nunomaduro/larastan": "^0.5.2",
         "nunomaduro/phpinsights": "^1.13",
         "phpunit/phpunit": "^9.0",
-        "vemcogroup/laravel-translation": "^2.0"
+        "vemcogroup/laravel-translation": "^2.0",
+        "wnx/laravel-stats": "^2.1"
     },
     "config": {
         "optimize-autoloader": true,
