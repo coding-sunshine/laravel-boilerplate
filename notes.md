@@ -52,3 +52,4 @@
 - Superadmin only Test Controller added for random tesing
 - Added laravel/scout and algolia/scout-extended with configuration
 - Added wnx/laravel-stats (Usage ``` php artisan stats ```)
+- Added robertogallea/eloquent-api
