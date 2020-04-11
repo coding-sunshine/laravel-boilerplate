@@ -51,5 +51,6 @@
 - Adde Spatie/Permissions 
 - Superadmin only Test Controller added for random tesing
 - Added laravel/scout and algolia/scout-extended with configuration
+- Added teamtnt/laravel-scout-tntsearch-driver
 - Added wnx/laravel-stats (Usage ``` php artisan stats ```)
 - Added robertogallea/eloquent-api
