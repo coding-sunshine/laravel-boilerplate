@@ -17,6 +17,7 @@ class UsersTableSeeder extends Seeder
             'superadmin' => [
                 'name' => 'Superadmin',
                 'email' => 'superadmin@example.com',
+                'userName' => 'superadmin',
                 'password' => bcrypt('secret'),
                 'email_verified_at' => now(),
                 'role' => 'superadmin',
@@ -24,6 +25,7 @@ class UsersTableSeeder extends Seeder
             'admin' => [
                 'name' => 'Admin',
                 'email' => 'admin@example.com',
+                'userName' => 'admin',
                 'password' => bcrypt('secret'),
                 'email_verified_at' => now(),
                 'role' => 'admin',

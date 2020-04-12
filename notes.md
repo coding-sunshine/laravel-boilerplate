@@ -54,3 +54,5 @@
 - Added teamtnt/laravel-scout-tntsearch-driver
 - Added wnx/laravel-stats (Usage ``` php artisan stats ```)
 - Added robertogallea/eloquent-api
+- Added username to users table
+- Must verify email

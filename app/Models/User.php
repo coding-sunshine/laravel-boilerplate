@@ -12,7 +12,7 @@ use Spatie\Permission\Traits\HasRoles;
 use App\Models\Concerns\ScoutSearch;
 
 
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
     use HasApiTokens, HasRoles, HasSchemalessAttributes, LogsActivity, Notifiable, ScoutSearch;
 
@@ -22,7 +22,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'username', 'password',
     ];
 
     /**
@@ -31,7 +31,7 @@ class User extends Authenticatable
      * @var array
      */
     protected static $logAttributes = [
-        'name', 'email'
+        'name', 'email', 'username',
     ];
 
     /**
@@ -51,6 +51,7 @@ class User extends Authenticatable
     protected $casts = [
         'name' => 'string',
         'email' => 'string',
+        'username' => 'string',
         'email_verified_at' => 'datetime',
     ];
 
@@ -62,5 +63,6 @@ class User extends Authenticatable
     protected $searchable = [
         'name',
         'email',
+        'username',
     ];
 }
