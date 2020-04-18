@@ -56,3 +56,4 @@
 - Added robertogallea/eloquent-api
 - Added username to users table
 - Must verify email
+- Added sqits/laravel-userstamps (#TODO move to Concerns)
