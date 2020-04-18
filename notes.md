@@ -57,3 +57,4 @@
 - Added username to users table
 - Must verify email
 - Added sqits/laravel-userstamps (#TODO move to Concerns)
+- Added arcanedev/laravel-notes

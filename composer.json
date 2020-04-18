@@ -12,6 +12,7 @@
         "algolia/algoliasearch-client-php": "^2.6",
         "algolia/scout-extended": "^1.9",
         "appstract/laravel-blade-directives": "^1.8",
+        "arcanedev/laravel-notes": "^7.0",
         "beyondcode/laravel-self-diagnosis": "^1.4",
         "calebporzio/parental": "^0.10.0",
         "calebporzio/sushi": "^2.0",

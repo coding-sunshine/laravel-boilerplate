@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4dc2bac4f10a8f191353f36a3413a9f2",
+    "content-hash": "4473ce44bc8d9a7b3ae87e077d811583",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -206,6 +206,122 @@
                 "laravel-blade-directives"
             ],
             "time": "2020-03-04T08:57:34+00:00"
+        },
+        {
+            "name": "arcanedev/laravel-notes",
+            "version": "7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ARCANEDEV/LaravelNotes.git",
+                "reference": "d6765d2eb121b39b144824199d3afcdc5ced0247"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ARCANEDEV/LaravelNotes/zipball/d6765d2eb121b39b144824199d3afcdc5ced0247",
+                "reference": "d6765d2eb121b39b144824199d3afcdc5ced0247",
+                "shasum": ""
+            },
+            "require": {
+                "arcanedev/support": "^7.0",
+                "php": "^7.2.5"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.1",
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^8.5|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Arcanedev\\LaravelNotes\\LaravelNotesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arcanedev\\LaravelNotes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ARCANEDEV",
+                    "email": "arcanedev.maroc@gmail.com",
+                    "homepage": "https://github.com/arcanedev-maroc",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides the ability to add notes to your Eloquent models in Laravel.",
+            "homepage": "https://github.com/ARCANEDEV/LaravelNotes",
+            "keywords": [
+                "arcanedev",
+                "laravel",
+                "noteable",
+                "notes"
+            ],
+            "time": "2020-03-11T08:57:06+00:00"
+        },
+        {
+            "name": "arcanedev/support",
+            "version": "7.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ARCANEDEV/Support.git",
+                "reference": "7e4199d30f04c611ba5d895e663f111c217ff5a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ARCANEDEV/Support/zipball/7e4199d30f04c611ba5d895e663f111c217ff5a3",
+                "reference": "7e4199d30f04c611ba5d895e663f111c217ff5a3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arcanedev\\Support\\": "src/"
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ARCANEDEV",
+                    "email": "arcanedev.maroc@gmail.com",
+                    "homepage": "https://github.com/arcanedev-maroc"
+                }
+            ],
+            "description": "ARCANEDEV Support Helpers",
+            "homepage": "https://github.com/ARCANEDEV/Support",
+            "keywords": [
+                "arcanedev",
+                "arcanesoft",
+                "laravel",
+                "support"
+            ],
+            "time": "2020-03-12T09:28:19+00:00"
         },
         {
             "name": "asm89/stack-cors",
